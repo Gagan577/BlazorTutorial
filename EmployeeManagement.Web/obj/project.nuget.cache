@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IBfP/gv7ITtVeDTcuSgI8aMg40RgKXAW3wFLNvIQJkQH3vboP7vDanOYTdt5FTMbauajD/gh/jcP/LNLmb8mew==",
+  "dgSpecHash": "a/ba4etRgw+pFbggTSEUtAMh7wUnVPRmjAY6Tiqv7koO05w77bPmQAOnfdSZNj5AGS1UgGudNx0tHMgvzExCLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\HPz400\\projects\\BlazorTutorial\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\HPz400\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

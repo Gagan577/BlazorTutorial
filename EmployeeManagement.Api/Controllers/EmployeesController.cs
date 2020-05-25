@@ -58,10 +58,17 @@ namespace EmployeeManagement.Api.Controllers
         [HttpPost]
         public async Task<ActionResult<Employee>> CreateEmployee(Employee employee)
         {
+            //Check if the Email is already used 
+            var emp = await employeeRepository.GetEmployeeByEmail(employee.Email);
+            if(emp != null)
+            {
+                ModelState.AddModelError("email", "Employee Email already in use");
+                return BadRequest(ModelState);
+            }
             if (!ModelState.IsValid)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error Adding new Emp..");
-            }
+            }   
             try
             {
                 var result = await employeeRepository.AddEmployee(employee);
@@ -72,6 +79,32 @@ namespace EmployeeManagement.Api.Controllers
 
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error Adding new Emp..");
+            }
+        }
+
+        [HttpPut("{id:int}")]
+        public async Task<ActionResult<Employee>> UpdateEmployee(int id, Employee employee)
+        {
+            try
+            {
+                // first, we compare passing id against the id in employee object
+                if(id != employee.EmployeeId)
+                {
+                    return BadRequest("Emp Id missmatch");
+                }
+                // also, check if the employee is in the system..
+                var emp =   await employeeRepository.GetEmployee(id);
+                if(emp == null)
+                {
+                    return NotFound($"Employee with Id: {id} not found!");
+                }
+                //Okay, all good so far.. update the record
+                var updatedEmp =  await employeeRepository.UpdateEmployee(employee);
+                return (updatedEmp);
+            }
+            catch (Exception)            
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error Updating new Emp..");
             }
         }
     }

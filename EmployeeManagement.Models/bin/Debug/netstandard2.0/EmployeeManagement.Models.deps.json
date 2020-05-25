@@ -11,7 +11,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "3.1.4",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.4",
-          "NETStandard.Library": "2.0.3"
+          "NETStandard.Library": "2.0.3",
+          "System.ComponentModel.Annotations": "4.7.0"
         },
         "runtime": {
           "EmployeeManagement.Models.dll": {}
