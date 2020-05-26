@@ -107,5 +107,25 @@ namespace EmployeeManagement.Api.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error Updating new Emp..");
             }
         }
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult<Employee>> DeleteEmployee(int id)
+        {
+            try
+            {
+                var emp = await employeeRepository.GetEmployee(id); 
+                if(emp == null)
+                {
+                    return NotFound($"Employee with Id: {id} not found!");
+                }
+                var delEmp = await employeeRepository.DeleteEmployee(emp.EmployeeId);
+                return delEmp;
+            }
+            catch (Exception)
+            {
+
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error Deleting the Emp..");
+            }
+
+        }
     }
 }
