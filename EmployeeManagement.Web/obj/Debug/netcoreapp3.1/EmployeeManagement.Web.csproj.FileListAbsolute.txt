@@ -47,3 +47,5 @@ C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcore
 C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
 C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EmployeeDetails.razor.g.cs
+C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\Razor\Pages\EmployeeDetails.razor.g.cs

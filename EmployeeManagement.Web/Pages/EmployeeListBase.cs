@@ -13,6 +13,7 @@ namespace EmployeeManagement.Web.Pages
         //NOTE: In Blazor component, we use [Inject] for DI - instead of using Constructor as in Service class 
         [Inject]
         public IEmployeeService EmployeeService { get; set; }
+        //public IEmployeeService EmployeeServiceV2 { get; set; }
         public IEnumerable<Employee> Employees { get; set; }
 
         protected override async Task OnInitializedAsync()
