@@ -19,7 +19,7 @@ namespace EmployeeManagement.Web.Pages
 
         protected async override Task OnInitializedAsync()
         {
-            Id = Id ?? "1";  // Use "1" as default when no passing Id
+            Id = Id ?? "1";  // Use "1" as default when no passing Id 
             Employee =  await EmployeeService.GetEmployee(int.Parse(Id));
         }
     }
