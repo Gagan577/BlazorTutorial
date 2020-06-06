@@ -24,6 +24,20 @@ namespace EmployeeManagement.Web.Pages
             //return base.OnInitializedAsync();
         }
 
+        protected int SelectedEmployeeCount { get; set; } = 0;
+        protected void OnEmployeeSelectionChanged(bool isSelected)
+        {
+            if (isSelected)
+            {
+                SelectedEmployeeCount++;
+            }
+            else
+            {
+                SelectedEmployeeCount--;
+            }
+
+        }
+
         //private void LoadEmployees()
         //{
         //    System.Threading.Thread.Sleep(2000);
