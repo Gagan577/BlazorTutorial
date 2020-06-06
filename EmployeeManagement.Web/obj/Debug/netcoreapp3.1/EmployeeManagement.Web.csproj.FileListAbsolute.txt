@@ -102,3 +102,5 @@ C:\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\Employ
 C:\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\EmployeeManagement.Web.genruntimeconfig.cache
 C:\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\DatabindingDemo.razor.g.cs
 C:\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\Razor\Pages\DatabindingDemo.razor.g.cs
+C:\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\DisplayEmployee.razor.g.cs
+C:\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\Razor\Pages\DisplayEmployee.razor.g.cs
