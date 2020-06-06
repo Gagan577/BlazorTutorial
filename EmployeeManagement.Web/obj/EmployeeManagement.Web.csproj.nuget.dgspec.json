@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HPz400\\projects\\BlazorTutorial\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj": {}
+    "C:\\projects\\BlazorTutorial\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HPz400\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {
+    "C:\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HPz400\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
+        "projectUniqueName": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
         "projectName": "EmployeeManagement.Models",
-        "projectPath": "C:\\Users\\HPz400\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
-        "packagesPath": "C:\\Users\\HPz400\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HPz400\\projects\\BlazorTutorial\\EmployeeManagement.Models\\obj\\",
+        "projectPath": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
+        "packagesPath": "C:\\Users\\atip\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\HPz400\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\atip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -74,25 +76,27 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HPz400\\projects\\BlazorTutorial\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj": {
+    "C:\\projects\\BlazorTutorial\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HPz400\\projects\\BlazorTutorial\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
+        "projectUniqueName": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
         "projectName": "EmployeeManagement.Web",
-        "projectPath": "C:\\Users\\HPz400\\projects\\BlazorTutorial\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
-        "packagesPath": "C:\\Users\\HPz400\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HPz400\\projects\\BlazorTutorial\\EmployeeManagement.Web\\obj\\",
+        "projectPath": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
+        "packagesPath": "C:\\Users\\atip\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\HPz400\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\atip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -104,8 +108,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\HPz400\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {
-                "projectPath": "C:\\Users\\HPz400\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj"
+              "C:\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {
+                "projectPath": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj"
               }
             }
           }
@@ -142,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
