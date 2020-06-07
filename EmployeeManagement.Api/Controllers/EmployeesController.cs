@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Api.Controllers
 {
+    //The API project is the one provides the REST endpoint 
     [Route("api/[controller]")]
     [ApiController]
     public class EmployeesController : ControllerBase 

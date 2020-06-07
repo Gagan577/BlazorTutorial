@@ -8,7 +8,11 @@ namespace EmployeeManagement.Api.Models
 {
     public interface IDepartmentRepository
     {
-        IEnumerable<Department> GetDepartments();
-        Department GetDepartment(int departmentId);
+        //old version before converting to returning Task - service ***BEGINS
+        //IEnumerable<Department> GetDepartments();
+        //Department GetDepartment(int departmentId);
+        //old version before converting to returning Task - service ***ENDS
+        Task<IEnumerable<Department>> GetDepartments();
+        Task <Department> GetDepartment(int departmentId);
     }
 }
