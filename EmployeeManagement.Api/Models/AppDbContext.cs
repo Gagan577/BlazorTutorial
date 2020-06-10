@@ -29,6 +29,8 @@ namespace EmployeeManagement.Api.Models
                 new Department { DepartmentId = 3, DepartmentName = "Payroll" });
             modelBuilder.Entity<Department>().HasData(
                 new Department { DepartmentId = 4, DepartmentName = "Admin" });
+            modelBuilder.Entity<Department>().HasData(
+                new Department { DepartmentId = 5, DepartmentName = "Sale" });
 
             // Seed Employee Table
             modelBuilder.Entity<Employee>().HasData(new Employee
@@ -76,6 +78,18 @@ namespace EmployeeManagement.Api.Models
                 DateOfBrith = new DateTime(1982, 9, 23),
                 Gender = Gender.Female,
                 DepartmentId = 3,
+                PhotoPath = "images/sara.png"
+            });
+
+            modelBuilder.Entity<Employee>().HasData(new Employee
+            {
+                EmployeeId = 5,
+                FirstName = "Jane",
+                LastName = "Plain",
+                Email = "PJane@pragimtech.com",
+                DateOfBrith = new DateTime(1990, 10, 23),
+                Gender = Gender.Female,
+                DepartmentId = 1,
                 PhotoPath = "images/sara.png"
             });
         }

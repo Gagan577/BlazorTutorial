@@ -57,6 +57,12 @@ namespace EmployeeManagement.Api.Models
             return result;
         }
 
+        public Task<Employee> GiveHimMoreWorkEmployee(int employeeId)
+        {
+            // Provide implementation details here
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<Employee>> Search(string name, Gender? gender)
         {
             //

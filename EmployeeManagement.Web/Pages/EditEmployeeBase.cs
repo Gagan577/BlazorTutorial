@@ -18,7 +18,9 @@ namespace EmployeeManagement.Web.Pages
         public IDepartmentService DepartmentService { get; set; }
         public List<Department> Departments { get; set; } = new List<Department>();
 
-        public string  DepartmentId { get; set; }
+        //since we added CustomInputSelect by Overriding base class, Now we dotn need 
+        //DepartmentId variable below..
+        //public string  DepartmentId { get; set; }
 
         [Parameter]
         public string Id  { get; set; }
@@ -28,7 +30,9 @@ namespace EmployeeManagement.Web.Pages
             //return base.OnInitializedAsync();
             Employee = await EmployeeService.GetEmployee(int.Parse(Id));
             Departments = (await DepartmentService.GetDepartments()).ToList();
-            DepartmentId = Employee.DepartmentId.ToString(); // This variable will be binded in the form in InputSelect Dept
+            //since we added CustomInputSelect by Overriding base class, Now we dotn need 
+            //DepartmentId variable below..
+            //DepartmentId = Employee.DepartmentId.ToString(); // This variable will be binded in the form in InputSelect Dept
         }
 
     }

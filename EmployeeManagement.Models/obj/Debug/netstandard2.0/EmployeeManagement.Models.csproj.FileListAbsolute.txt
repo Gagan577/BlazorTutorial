@@ -6,7 +6,6 @@ C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\nets
 C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.dll
 C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.pdb
 C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.csproj.CoreCompileInputs.cache
-C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.csprojAssemblyReference.cache
 C:\projects\BlazorTutorial\EmployeeManagement.Models\bin\Debug\netstandard2.0\EmployeeManagement.Models.deps.json
 C:\projects\BlazorTutorial\EmployeeManagement.Models\bin\Debug\netstandard2.0\EmployeeManagement.Models.dll
 C:\projects\BlazorTutorial\EmployeeManagement.Models\bin\Debug\netstandard2.0\EmployeeManagement.Models.pdb
@@ -16,3 +15,4 @@ C:\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\Em
 C:\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.AssemblyInfo.cs
 C:\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.dll
 C:\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.pdb
+C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.csprojAssemblyReference.cache
