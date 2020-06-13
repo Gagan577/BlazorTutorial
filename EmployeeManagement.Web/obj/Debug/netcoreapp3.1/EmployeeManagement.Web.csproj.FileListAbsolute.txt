@@ -112,3 +112,17 @@ C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcore
 C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\Razor\Pages\DatabindingDemo.razor.g.cs
 C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\Razor\Pages\DisplayEmployee.razor.g.cs
 C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\Razor\Pages\EditEmployee.razor.g.cs
+C:\projects\BlazorTutorial\EmployeeManagement.Web\bin\Debug\netcoreapp3.1\EmployeeManagement.Web.StaticWebAssets.xml
+C:\projects\BlazorTutorial\EmployeeManagement.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\projects\BlazorTutorial\EmployeeManagement.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.dll
+C:\projects\BlazorTutorial\EmployeeManagement.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Forms.dll
+C:\projects\BlazorTutorial\EmployeeManagement.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Web.dll
+C:\projects\BlazorTutorial\EmployeeManagement.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\projects\BlazorTutorial\EmployeeManagement.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\projects\BlazorTutorial\EmployeeManagement.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\projects\BlazorTutorial\EmployeeManagement.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\projects\BlazorTutorial\EmployeeManagement.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\projects\BlazorTutorial\EmployeeManagement.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\projects\BlazorTutorial\EmployeeManagement.Web\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
+C:\projects\BlazorTutorial\EmployeeManagement.Web\bin\Debug\netcoreapp3.1\Atip.Components.dll
+C:\projects\BlazorTutorial\EmployeeManagement.Web\bin\Debug\netcoreapp3.1\Atip.Components.pdb
