@@ -83,6 +83,13 @@ using Atip.Components;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\projects\BlazorTutorial\EmployeeManagement.Web\_Imports.razor"
+using EmployeeManagement.Models;
+
+#line default
+#line hidden
+#nullable disable
     public partial class DisplayEmployee : DisplayEmployeeBase
     {
         #pragma warning disable 1998
