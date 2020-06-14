@@ -18,3 +18,4 @@ C:\projects\BlazorTutorial\Atip.Components\obj\Debug\netstandard2.0\staticwebass
 C:\projects\BlazorTutorial\Atip.Components\obj\Debug\netstandard2.0\staticwebassets\Atip.Components.StaticWebAssets.xml
 C:\projects\BlazorTutorial\Atip.Components\obj\Debug\netstandard2.0\Atip.Components.dll
 C:\projects\BlazorTutorial\Atip.Components\obj\Debug\netstandard2.0\Atip.Components.pdb
+C:\projects\BlazorTutorial\Atip.Components\obj\Debug\netstandard2.0\Atip.Components.csprojAssemblyReference.cache
