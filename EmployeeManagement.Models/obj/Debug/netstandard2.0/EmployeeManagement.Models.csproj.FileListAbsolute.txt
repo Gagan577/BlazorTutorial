@@ -15,3 +15,4 @@ C:\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\Em
 C:\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.dll
 C:\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.pdb
 C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.csprojAssemblyReference.cache
+C:\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.csprojAssemblyReference.cache
