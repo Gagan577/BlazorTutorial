@@ -15,3 +15,13 @@ C:\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\Em
 C:\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.dll
 C:\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.pdb
 C:\Users\HPz400\projects\BlazorTutorial\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.csprojAssemblyReference.cache
+D:\DevOps\Blazor\EmployeeManagement.Models\bin\Debug\netstandard2.0\EmployeeManagement.Models.deps.json
+D:\DevOps\Blazor\EmployeeManagement.Models\bin\Debug\netstandard2.0\EmployeeManagement.Models.dll
+D:\DevOps\Blazor\EmployeeManagement.Models\bin\Debug\netstandard2.0\EmployeeManagement.Models.pdb
+D:\DevOps\Blazor\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.csproj.AssemblyReference.cache
+D:\DevOps\Blazor\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\DevOps\Blazor\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.AssemblyInfoInputs.cache
+D:\DevOps\Blazor\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.AssemblyInfo.cs
+D:\DevOps\Blazor\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.csproj.CoreCompileInputs.cache
+D:\DevOps\Blazor\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.dll
+D:\DevOps\Blazor\EmployeeManagement.Models\obj\Debug\netstandard2.0\EmployeeManagement.Models.pdb

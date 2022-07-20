@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeManagement.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20200524201421_InitialCreate")]
+    [Migration("20220720150740_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -55,6 +55,11 @@ namespace EmployeeManagement.Api.Migrations
                         {
                             DepartmentId = 4,
                             DepartmentName = "Admin"
+                        },
+                        new
+                        {
+                            DepartmentId = 5,
+                            DepartmentName = "Sale"
                         });
                 });
 
@@ -72,21 +77,26 @@ namespace EmployeeManagement.Api.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Email")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FirstName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Gender")
                         .HasColumnType("int");
 
                     b.Property<string>("LastName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhotoPath")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("EmployeeId");
+
+                    b.HasIndex("DepartmentId");
 
                     b.ToTable("Employees");
 
@@ -134,7 +144,27 @@ namespace EmployeeManagement.Api.Migrations
                             Gender = 1,
                             LastName = "Longway",
                             PhotoPath = "images/sara.png"
+                        },
+                        new
+                        {
+                            EmployeeId = 5,
+                            DateOfBrith = new DateTime(1990, 10, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DepartmentId = 1,
+                            Email = "PJane@pragimtech.com",
+                            FirstName = "Jane",
+                            Gender = 1,
+                            LastName = "Plain",
+                            PhotoPath = "images/sara.png"
                         });
+                });
+
+            modelBuilder.Entity("EmployeeManagement.Models.Employee", b =>
+                {
+                    b.HasOne("EmployeeManagement.Models.Department", "Department")
+                        .WithMany()
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

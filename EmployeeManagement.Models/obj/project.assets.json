@@ -1208,27 +1208,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\atip\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\91973\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
+      "projectUniqueName": "D:\\DevOps\\Blazor\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
       "projectName": "EmployeeManagement.Models",
-      "projectPath": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
-      "packagesPath": "C:\\Users\\atip\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Models\\obj\\",
+      "projectPath": "D:\\DevOps\\Blazor\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
+      "packagesPath": "C:\\Users\\91973\\.nuget\\packages\\",
+      "outputPath": "D:\\DevOps\\Blazor\\EmployeeManagement.Models\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\atip\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\91973\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -1239,6 +1232,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {}
         }
       },
@@ -1250,6 +1244,7 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -1284,7 +1279,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

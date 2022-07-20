@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\BlazorTutorial\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj": {}
+    "D:\\DevOps\\Blazor\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj": {}
   },
   "projects": {
-    "C:\\projects\\BlazorTutorial\\Atip.Components\\Atip.Components.csproj": {
+    "D:\\DevOps\\Blazor\\Atip.Components\\Atip.Components.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\BlazorTutorial\\Atip.Components\\Atip.Components.csproj",
+        "projectUniqueName": "D:\\DevOps\\Blazor\\Atip.Components\\Atip.Components.csproj",
         "projectName": "Atip.Components",
-        "projectPath": "C:\\projects\\BlazorTutorial\\Atip.Components\\Atip.Components.csproj",
-        "packagesPath": "C:\\Users\\atip\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\BlazorTutorial\\Atip.Components\\obj\\",
+        "projectPath": "D:\\DevOps\\Blazor\\Atip.Components\\Atip.Components.csproj",
+        "packagesPath": "C:\\Users\\91973\\.nuget\\packages\\",
+        "outputPath": "D:\\DevOps\\Blazor\\Atip.Components\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\atip\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\91973\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -31,6 +26,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -42,6 +38,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.AspNetCore.Components": {
               "target": "Package",
@@ -68,27 +65,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {
+    "D:\\DevOps\\Blazor\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
+        "projectUniqueName": "D:\\DevOps\\Blazor\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
         "projectName": "EmployeeManagement.Models",
-        "projectPath": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
-        "packagesPath": "C:\\Users\\atip\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Models\\obj\\",
+        "projectPath": "D:\\DevOps\\Blazor\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
+        "packagesPath": "C:\\Users\\91973\\.nuget\\packages\\",
+        "outputPath": "D:\\DevOps\\Blazor\\EmployeeManagement.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\atip\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\91973\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -99,6 +91,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -110,6 +103,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -144,27 +138,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\projects\\BlazorTutorial\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj": {
+    "D:\\DevOps\\Blazor\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
+        "projectUniqueName": "D:\\DevOps\\Blazor\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
         "projectName": "EmployeeManagement.Web",
-        "projectPath": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
-        "packagesPath": "C:\\Users\\atip\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Web\\obj\\",
+        "projectPath": "D:\\DevOps\\Blazor\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
+        "packagesPath": "C:\\Users\\91973\\.nuget\\packages\\",
+        "outputPath": "D:\\DevOps\\Blazor\\EmployeeManagement.Web\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\atip\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\91973\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -175,12 +164,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\projects\\BlazorTutorial\\Atip.Components\\Atip.Components.csproj": {
-                "projectPath": "C:\\projects\\BlazorTutorial\\Atip.Components\\Atip.Components.csproj"
+              "D:\\DevOps\\Blazor\\Atip.Components\\Atip.Components.csproj": {
+                "projectPath": "D:\\DevOps\\Blazor\\Atip.Components\\Atip.Components.csproj"
               },
-              "C:\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {
-                "projectPath": "C:\\projects\\BlazorTutorial\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj"
+              "D:\\DevOps\\Blazor\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {
+                "projectPath": "D:\\DevOps\\Blazor\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj"
               }
             }
           }
@@ -193,6 +183,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Blazor.HttpClient": {
               "target": "Package",
@@ -217,7 +208,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
